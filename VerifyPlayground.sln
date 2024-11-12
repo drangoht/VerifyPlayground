@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VerifyPlayground.Core", "VerifyPlayground.Core\VerifyPlayground.Core.csproj", "{D59A5D70-C722-4F76-B27B-B17431807E93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VerifyPlayground.Tests", "VerifyPlayground.Tests\VerifyPlayground.Tests.csproj", "{504C6A4B-051D-4FC2-8F12-A84EA043CFD6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D59A5D70-C722-4F76-B27B-B17431807E93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D59A5D70-C722-4F76-B27B-B17431807E93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D59A5D70-C722-4F76-B27B-B17431807E93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D59A5D70-C722-4F76-B27B-B17431807E93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{504C6A4B-051D-4FC2-8F12-A84EA043CFD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{504C6A4B-051D-4FC2-8F12-A84EA043CFD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{504C6A4B-051D-4FC2-8F12-A84EA043CFD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{504C6A4B-051D-4FC2-8F12-A84EA043CFD6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F93D1AF-06C3-4980-AFC6-CB0E0D94A3FA}
+	EndGlobalSection
+EndGlobal
