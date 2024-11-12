@@ -13,7 +13,7 @@ namespace VerifyPlayground.Tests
         public PersonTests()
         {
             _id = Guid.Parse("0a238b62-67b0-4bba-8e76-db88ca21f097");
-            _sut = new(_id,_firstName,_lastName, 1977);
+            _sut = new(_id,_firstName,_lastName, birthYear);
             _verifySettings = new();
             _verifySettings.UseDirectory("snapshots");
         }
